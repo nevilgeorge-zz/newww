@@ -1,12 +1,17 @@
 // App.jsx
 
 import React from 'react';
-import Page from './Page.jsx'
+import Footer from './Footer.jsx';
+import Intro from './Intro.jsx';
+
 
 class App extends React.Component {
   render() {
     return (
-      <Page />
+      <div>
+        <Intro />
+        <Footer />
+      </div>
     );
   }
 }

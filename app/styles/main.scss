@@ -69,3 +69,42 @@ footer.nav-footer {
   }
 }
 // End Footer styling
+
+// Start Intro styling
+div.main-text {
+  margin-top: 10%;
+  font-family: 'Ropa Sans', courier;
+  font-size: $font-size;
+  color: $text-color1;
+  text-align: center;
+
+  h1 {
+    font-size: 80px;
+    font-weight: normal;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: normal;
+  }
+
+  h3 {
+    font-size: 25px;
+    font-weight: normal;
+  }
+
+  div.icons {
+    margin-top: 7%;
+    font-size: $font-size;
+  }
+
+  i {
+    color: $text-color2;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  i:hover {
+    color: $text-color1;
+  }
+}
+// End Intro styling
