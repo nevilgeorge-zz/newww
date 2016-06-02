@@ -5,7 +5,7 @@ import React from 'react';
 class Intro extends React.Component {
   render() {
     return (
-      <div className="col-md-12 main-text">
+      <div className="col-md-12 intro-text">
         <h1 className="animated fadeInDown">nevil george</h1>
         <h3>computer science at northwestern university</h3>
         <h3>incoming software engineer at uber</h3>

@@ -21,6 +21,7 @@ body {
 // Start Footer styling
 footer.nav-footer {
   position: fixed;
+  clear: both;
   bottom: 0px;
   background-color: $text-color1;
   width: 100%;
@@ -70,8 +71,16 @@ footer.nav-footer {
 }
 // End Footer styling
 
+// Start Main content styling (general to all content pages)
+div.main-content {
+  margin-top: 4%;
+  margin-bottom: 8%;
+}
+
+// End Main content styling
+
 // Start Intro styling
-div.main-text {
+div.intro-text {
   margin-top: 10%;
   font-family: 'Ropa Sans', courier;
   font-size: $font-size;
@@ -108,3 +117,42 @@ div.main-text {
   }
 }
 // End Intro styling
+
+// Start Experience styling
+h2.experience-title {
+  width: 100%;
+  height: 20%;
+  margin-bottom: 10px;
+  color: $text-color1;
+  text-align: center;
+}
+
+div.experience-box {
+  height: 20%;
+  background-color: $background-color;
+  padding: 20px 20px 0px 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  h2 {
+    color: $text-color2;
+    margin-bottom: 3px;
+    margin-top: 3px;
+
+    span {
+      color: $text-color3;
+      font-size: 65%;
+    }
+  }
+
+  h3 {
+    margin-top: 0;
+    color: $text-color3;
+  }
+
+  p {
+    color: $text-color1;
+    font-size: 140%;
+  }
+}
+// End Experience styling
