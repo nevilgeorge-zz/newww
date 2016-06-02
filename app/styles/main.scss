@@ -38,7 +38,8 @@ footer.nav-footer {
     li {
       display: inline;
       height: 100%;
-      width: 33.3%;
+      // width changes with number of li elements
+      width: 50%;
       float: left;
       padding-top: 10px;
       padding-bottom: 10px;
