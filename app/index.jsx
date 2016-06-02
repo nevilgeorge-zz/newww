@@ -7,6 +7,18 @@ import './styles/animate.min.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { browserHistory, IndexRoute, Route, Router } from 'react-router';
 import App from './components/App.jsx';
+import Intro from './components/Intro.jsx';
+import Experience from './components/Experience.jsx';
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render((
+  <div>
+    <Router history={browserHistory}>
+      <Route path="/" component={App}>
+        <IndexRoute component={Intro} />
+        <Route path="/experience" component={Experience} />
+      </Route>
+    </Router>
+  </div>
+), document.getElementById('app'));
