@@ -13,12 +13,10 @@ import Intro from './components/Intro.jsx';
 import Experience from './components/Experience.jsx';
 
 ReactDOM.render((
-  <div>
-    <Router history={browserHistory}>
-      <Route path="/" component={App}>
-        <IndexRoute component={Intro} />
-        <Route path="/experience" component={Experience} />
-      </Route>
-    </Router>
-  </div>
+  <Router history={browserHistory}>
+    <Route path="/newww/" component={App}>
+      <IndexRoute component={Intro} />
+      <Route path="/experience" component={Experience} />
+    </Route>
+  </Router>
 ), document.getElementById('app'));
